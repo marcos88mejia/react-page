@@ -1,0 +1,29 @@
+.precio-lista{
+    text-decoration: line-through;
+    color:var(--color-gris-claro);
+    margin-left: 10px;
+}
+
+.porcentaje-descuento{
+    position: absolute;
+    background-color: var(--color3);
+    right: 0;
+    padding: 0 5px;
+    border-radius: 0 0 0 10px;
+    top: 0;
+}
+
+.vista-rapida{
+    cursor:pointer;
+    position: absolute;
+    left: calc(50% - 28px);
+    top: calc(50% - 28px);
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    padding: 16px 20px;
+    border-radius: 50%;
+}
+
+.image-content{
+    position: relative;
+}
